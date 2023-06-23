@@ -193,10 +193,11 @@ int executeCommand(std::vector<std::string>& args)
     }
 
     // checking if the path is going on 
-    std::vector<std::string>aargs12;std::string sys1="";
+    std::vector<std::string>aargs12;std::string sys="";
+    std::string sys12="";
     for(auto t:aargs12){
         // x.append('a');.
-        sys1.append("ll");
+        sys.append("ll");
     }
         
     for (size_t i = 0; i < numBuiltins(); ++i)
